@@ -1,4 +1,4 @@
-package aimal;
+package animal;
 
 public interface Thinkable {
 

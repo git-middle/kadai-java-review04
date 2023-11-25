@@ -1,21 +1,21 @@
-package aimal;
+package animal;
 
 public class Human extends Animal implements Thinkable{
 
-    private String hobit;
+    private String hobby;
 
     public Human() {
 
     }
 
     //引数ありのコンストラクタ
-    public Human(String name,int age,String hobit) {
+    public Human(String name,int age,String hobby) {
         super(name,age);//スーパークラス（Character）のコンストラクタを呼び出し
-        this.hobit = hobit;
+        this.hobby = hobby;
     }
 
     public void think() {
-       System.out.println("私は"+hobit+"について考えています。");
+       System.out.println("私は"+hobby+"について考えています。");
 
     }
 

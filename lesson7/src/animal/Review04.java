@@ -1,4 +1,4 @@
-package aimal;
+package animal;
 
 public class Review04 {
 

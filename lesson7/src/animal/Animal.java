@@ -1,4 +1,4 @@
-package aimal;
+package animal;
 
 public class Animal {
 
@@ -30,7 +30,7 @@ public class Animal {
         return age;
     }
 
-    public void setAge(int Age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
